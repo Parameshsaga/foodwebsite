@@ -1,0 +1,151 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.login-container {
+    background-image: url("https://images.openai.com/static-rsc-4/l1IOqJru-hn2RI2LeSe84Z2HG42aQoo4q8dLgS0gWPAqxOKIgkHYtU43WPCdC12JWWeT-Q8DuGmLOJH9kOKU1C2ujklivzFkWvjboRu9x0f3fVb3iYuDt-c-FGPyGHTIN8sl5sYlGoOX4NytsvnLaPTeqi-Gdk_1N-9EjU_ZtwM479hMnYc7jXsSEPPPUZwO?purpose=fullsize");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.nav-link{
+    color: black;
+    font-size: large;
+}
+
+.card-container{
+    background-color: aliceblue;
+    height:50vh;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px gray;
+    padding-right: 20px;
+
+
+
+
+}
+.form-control {
+    width: 120%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+
+.btn-button{
+    background-color: rgb(10, 21, 31);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 50px;
+
+} 
+
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+
+    .card-container {
+        width: 70%;
+        padding:20px;
+        margin:10px;
+       
+    }
+    .form-control {
+    width: 100%;
+    
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   
+
+}
+
+.login-heading {
+    margin-bottom: 10px;
+}
+
+    
+}
+
+@media screen and (min-width: 992px) { 
+    .card-container{
+        width: 95%;
+        max-width: 700px;
+        padding-right: 40px;
+    }
+}
+
+    
+
+    
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .card-container {
+        width: 90%;
+        max-width: 400px;
+        padding-right: 40px;
+        
+        
+        
+    }
+    .form-control {
+        width: 130%;
+        margin-top: 5px;
+    } 
+    .login-heading{
+        margin-bottom: 20px;
+        text-align: center;
+         margin-left: 70px;
+    }
+    .btn-button{
+        margin-left: 80px;
+
+    }
+} 
+
+/* Laptop/Desktop */
+@media screen and (min-width:769) and (min-width: 992px) {
+    .card-container {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+
+
+
+
+
+
+.form-label{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(10, 21, 31);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+

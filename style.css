@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+   .login-container{
+    background-image: url("https://images.openai.com/static-rsc-4/l1IOqJru-hn2RI2LeSe84Z2HG42aQoo4q8dLgS0gWPAqxOKIgkHYtU43WPCdC12JWWeT-Q8DuGmLOJH9kOKU1C2ujklivzFkWvjboRu9x0f3fVb3iYuDt-c-FGPyGHTIN8sl5sYlGoOX4NytsvnLaPTeqi-Gdk_1N-9EjU_ZtwM479hMnYc7jXsSEPPPUZwO?purpose=fullsize");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 400px;
+   
+      
+   }
+
+@media screen  and (max-width:767px) {
+    .login-container{
+    padding-top: 300px;
+    
+}
+}
+@media screen  and (min-width:768px)  and (max-width:1281px){
+    .login-container{
+    padding-top: 300px;
+    
+}
+}
+
+
+   .login-content{
+     font-size: 30px; 
+     display:flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     align-items: center; 
+     
+     
+   }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
